@@ -1,0 +1,30 @@
+.header{
+    &__bg{
+    background: linear-gradient(
+        233.95deg,
+        rgb(1, 1, 37) -73.12%,
+        rgb(0, 0, 0) 53.36%,
+        rgba(2, 2, 73, 0.89) 103.17%
+    ),
+    #ffffff;
+    background-blend-mode: multiply, multiply, normal;
+}
+
+&__content{
+    height: calc(100vh - 56px);
+}
+
+&__img{
+    width: 220px;
+}
+
+@media (min-width: 576px){
+    &__img{
+        width: auto;
+        height: auto;
+        object-fit: cover;
+    }
+}
+}
+
+

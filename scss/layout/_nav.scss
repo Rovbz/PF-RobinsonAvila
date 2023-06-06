@@ -1,0 +1,23 @@
+.navbar{
+    a{
+        color: $color-primary;
+    }
+    .collapse.navbar-collapse{
+        flex-grow: inherit;
+    
+    }
+    .navbar-toggler{
+        border-color: $color-primary;
+        color: $color-primary;
+    }
+    .nav-link:focus, .nav-link:hover {
+        color: yellow;
+    }
+    
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+}
+
+

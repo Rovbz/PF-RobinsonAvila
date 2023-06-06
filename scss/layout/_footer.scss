@@ -1,0 +1,32 @@
+footer{
+    background: linear-gradient(
+        233.95deg,
+        rgb(1, 1, 37) -73.12%,
+        rgb(0, 0, 0) 53.36%,
+        rgba(2, 2, 73, 0.89) 103.17%
+    ),
+    #ffffff;
+    background-blend-mode: multiply, multiply, normal;
+}
+  
+  .footer__content{
+    padding: 40px 0;
+  }
+  
+  @media (min-width:1024px) {
+    .footer__content{
+      padding: 80px 120px;
+    }
+  }
+  
+  .footer__nav{
+    border-bottom: 1px solid #5145f7;
+    padding-bottom: 40px;
+  }
+  
+  .footer__content nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
